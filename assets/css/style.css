@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b1b1b1;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+section {
+    display: flex;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 0 30px #d4d4d4;
+}
+
+.left-content {
+    flex: 70%;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.left-content h1{
+    text-align: left;
+    color: #2C74B3;
+}
+
+.left-content p {
+    text-align: justify;
+}
+
+.left-content .contact{
+    background-color: #2C74B3; 
+    color: white; 
+    border-radius: 15px; 
+    border: none; 
+    padding: 5px 20px; 
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.left-content .download-cv{
+    text-decoration: none;
+    color: #2C74B3;
+    margin-left: 10px;
+}
+
+.left-content .medsos{
+    width:250px;
+    padding: 15px;
+    margin: 30px auto; 
+    text-align: center;
+}
+
+.left-content .medsos a{
+    color: #2C74B3;
+    padding:10px;
+    font-size: 35px;
+}
+
+.right-content {
+    flex: 30%;
+    margin-left: 50px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.right-content .card{
+    width:300px;
+    margin: 30px auto; 
+    border-radius: 7px;
+    text-align: center;
+    padding-bottom: 10px;
+    box-shadow: 0 0 30px #bac0c0;
+}
+
+.content{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+div h1 {
+    margin: 5px;
+    text-align: center;
+}
+
+div form input, div form select{
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;;
+    padding: 8px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    border: none;
+    height: 35px;
+}
+
+div form textarea{
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 15px 8px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    border: none;
+    height: 80px;
+    resize: none;
+}
+
+div form button{
+    box-sizing: border-box;
+    width: 20%;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #2C74B3;
+    color: white;
+    float: right;
+    cursor: pointer;
+}
+
+div form input:focus, div form select:focus, div form textarea:focus{
+    outline: none;
+}

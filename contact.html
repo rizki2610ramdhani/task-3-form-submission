@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task day 2</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="left-side-nav">
+            <img src="assets/images/logonew2.png" alt="Logo" id="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">My Project</a></li>
+
+            </ul>
+        </div>
+
+        <div class="right-side-nav">
+            <a href="contact.html" class="active">Contact Me</a>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+    <!-- Form -->
+    <div class="container">
+        <div class="content">
+            <h1>GET IN TOUCH</h1>
+            <br>
+            <form>
+                <label for="name">Nama</label>
+                <input type="text" name="name" id="name" required/>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required/>
+                <label for="phone">Nomor Telepom</label>
+                <input type="number" name="phone" id="phone" required/>
+                <label for="subject">Subjek</label>
+                <select name="subject" id="subject">
+                    <option value="fullstack">Fullstack</option>
+                    <option value="frontend">Frontend</option>
+                    <option value="backend">Backend</option>
+                </select>
+                <label for="message">Pesan</label>
+                <textarea name="message" id="message" required></textarea>
+                <button type="submit" onclick="getData()"><strong>Submit</strong></button>
+            </form>
+        </div>
+    </div>
+    <!-- End of form -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
